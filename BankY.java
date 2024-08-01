@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class BankY {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/BankY";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "root"; // Replace with your MySQL password
+    private static final String DB_PASSWORD = "password"; // Replace with your MySQL password
 
     public static void main(String[] args) {
         BankY bank = new BankY();
